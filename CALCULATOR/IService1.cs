@@ -41,6 +41,9 @@ namespace CALCULATOR
 
         void GetAllStudents();
 
+        [OperationContract]
+
+        double ADD(int a, int b);
     }
 
 

@@ -59,6 +59,13 @@ namespace CALCULATOR
 
 
         }
+
+        public double ADD(int a , int b)
+        {
+
+            return a + b;
+
+        }
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)

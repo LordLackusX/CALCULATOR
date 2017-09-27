@@ -14,9 +14,51 @@ namespace CALCULATOR
     {
         public string GetData(int value)
         {
+            
+
             return string.Format("You entered: {0}", value);
         }
 
+        public void GetStudent()
+        {
+
+
+
+        }
+
+
+        public void FindStudent()
+        {
+
+
+
+
+        }
+
+        public void RemoveStudent()
+        {
+
+
+
+
+        }
+
+
+        public void EditStudent()
+        {
+
+
+
+
+        }
+
+        public void GetAllStudents()
+        {
+
+
+
+
+        }
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)

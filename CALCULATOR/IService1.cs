@@ -19,7 +19,28 @@ namespace CALCULATOR
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
+
         // TODO: Add your service operations here
+
+        [OperationContract]
+        void GetStudent();
+
+        [OperationContract]
+
+        void FindStudent();
+
+        [OperationContract]
+
+        void RemoveStudent();
+
+        [OperationContract]
+
+        void EditStudent();
+
+        [OperationContract]
+
+        void GetAllStudents();
+
     }
 
 
